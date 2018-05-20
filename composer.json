@@ -1,14 +1,13 @@
 {
-    "name": "dmatthew/default-color",
+    "name": "dmatthew/magento2-default-color",
     "description": "Adds ability to set a default color for configurable products.",
     "require": {
         "php": "7.0.2|7.0.4|~7.0.6|~7.1.0"
     },
     "type": "magento2-module",
-    "version": "100.0.0",
+    "version": "1.0.0",
     "license": [
-        "OSL-3.0",
-        "AFL-3.0"
+        "MIT"
     ],
     "autoload": {
         "files": [

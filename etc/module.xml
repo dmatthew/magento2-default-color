@@ -4,6 +4,8 @@
     <module name="Dmatthew_DefaultColor" setup_version="1.0.0">
         <sequence>
             <module name="Magento_Catalog"/>
+            <module name="Magento_ConfigurableProduct"/>
+            <module name="Magento_Swatches"/>
         </sequence>
     </module>
 </config>

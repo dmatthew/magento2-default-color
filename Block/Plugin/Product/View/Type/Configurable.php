@@ -38,7 +38,7 @@ class Configurable
     {
         $product = $this->swatchHelper->loadVariationByFallback(
             $configurableProduct,
-            ['color' => $configurableProduct->getData('default_color_value')]// OR: $configurableProduct->getCustomAttribute('default_color_value')
+            ['color' => $configurableProduct->getData('default_color_value')]
         );
         return $product ? $this->swatchHelper->getProductMediaGallery($product) : [];
     }
